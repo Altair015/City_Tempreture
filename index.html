@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <title>Weather</title>
 </head>
 
 <body>
     <div id="body-container">
+        <header id="head-container">
+            <h1>Weather Display</h1>
+        </header>
         <main id="main-container">
             <div id="search-container">
                 <div id="search-item">
@@ -20,7 +23,7 @@
                 </div>
             </div>
             <div id="city-item">
-                <p id="city-text" class="search-font">Bengaluru</p>
+                <p id="city-text" class="search-font"></p>
             </div>
             <div id="display-container">
                 <div id="image-container">
@@ -29,7 +32,7 @@
             <div id="temp-container">
                 <div id="temp-item">
                     <p id="temp-text" class="search-font">Tempreture</p>
-                    <p id="temp-value" class="search-font">20&deg;C</p>
+                    <p id="temp-value" class="search-font"></p>
                 </div>
             </div>
         </main>
